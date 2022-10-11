@@ -1,0 +1,30 @@
+.feedback__controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.controls__item {
+    display: block;
+}
+
+button {
+    font-size: larger;
+    background-color: darkslateblue;
+    color: aquamarine;
+    border-radius: 6px;
+    transition: .5s ease;
+    
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid #799be6;
+    color: black;
+    box-shadow: 0 0 10px 0 #799be6 inset, 0 0 10px 4px #799be6; 
+}
+
+button:active {
+    background-color: #a7c8cf;
+    transform: translateY(4px);
+}

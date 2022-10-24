@@ -40,7 +40,7 @@ export const App = () => {
 
   return (
     <>
-      <Section title="Please leave feedback">
+      <Section title="Please leave feedback or we will find you by IP">
         <FeedbackOptions
           options={options}
           onLeaveFeedback={onLeaveFeedback}
